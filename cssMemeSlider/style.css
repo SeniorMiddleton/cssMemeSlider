@@ -117,3 +117,28 @@ h1 {
   width: 100%;
   height: 100%;
 }
+#sl1:checked ~ .s1 {
+  margin-left: 0%;
+}
+#sl2:checked ~ .s1 {
+  margin-left: -25%;
+}
+#sl3:checked ~ .s1 {
+  margin-left: -50%;
+}
+#sl4:checked ~ .s1 {
+  margin-left: -75%;
+}
+
+#sl1:checked ~ .text h1 {
+  margin-left: 0;
+}
+#sl2:checked ~ .text h1 {
+  margin-left: -25%;
+}
+#sl3:checked ~ .text h1 {
+  margin-left: -50%;
+}
+#sl4:checked ~ .text h1 {
+  margin-left: -75%;
+}
