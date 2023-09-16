@@ -6,7 +6,7 @@
   #navigation {
     position: absolute;
     top: 41%;
-    width: 92%;
+    width: 87%;
     padding-top: 2em;
     padding-bottom: 2em;
   }
@@ -18,8 +18,7 @@
     width: 100%;
     max-width: 16em;
     height: 3em;
-    top: 41%;
-    padding-top: 7em;
+    top: 57%;
     overflow: hidden;
     position: absolute;
   }
