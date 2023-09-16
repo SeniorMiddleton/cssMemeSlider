@@ -5,18 +5,28 @@
 @media screen and (max-width: 768px) {
   #navigation {
     position: absolute;
-    margin-top: 58%;
+    top: 64%;
+    width: 92%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .nav {
     display: flex;
     justify-content: center;
-    width: 95%;
   }
   .text {
     width: 100%;
     max-width: 16em;
     height: 3em;
-    margin-top: 70%;
+    top: 63%;
+    padding-top: 7em;
     overflow: hidden;
     position: absolute;
+  }
+  .text1 {
+    width: 400%;
+    height: 100%;
+    display: flex;
   }
 }
 @media screen and (min-width: 769px) {
@@ -25,7 +35,11 @@
     margin-top: 58%;
     display: flex;
     justify-content: end;
-    width: 95%;
+    width: 94%;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
   }
   .text {
     width: 100%;
@@ -43,9 +57,9 @@ body {
 
 .box {
   width: 100%;
-  max-width: 70em;
+  max-width: 64em;
   height: 100%;
-  max-height: 49em;
+  max-height: 47em;
   top: 50%;
   left: 50%;
   overflow: hidden;
@@ -60,13 +74,13 @@ body {
   overflow: hidden;
   border-radius: 2em;
 }
+
 /* АКТИВНИЙ ЧЕКПОІНТ */
 #sl1:checked ~ #navigation label:nth-child(1),
 #sl2:checked ~ #navigation label:nth-child(2),
 #sl3:checked ~ #navigation label:nth-child(3),
 #sl4:checked ~ #navigation label:nth-child(4) {
-  background-color: #323b4c;
-  border: 0.2em solid #18a3dd;
+  background-color: black;
 }
 #navigation label {
   border-radius: 50%;
